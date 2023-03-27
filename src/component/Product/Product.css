@@ -1,0 +1,35 @@
+.product{
+    height: 510px;
+    width: 300px;
+    border: 1px solid #95a0a7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    display: block;
+    margin:auto;
+   
+}
+.product-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015rem;
+    color: #0e161a;
+
+}
+.button{
+    background-color: darkgoldenrod;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.button:hover{
+    background-color: orange;
+}
